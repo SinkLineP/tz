@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import "./infoDirector.scss";
 
 const infoDirector = () => {
     return (
         <div>
-            <h1>Директор закладу</h1>
+            <div className="teach">
+                <h1 className="text-dir">
+                    Місія наної команди — <br />підготувати, наскільки це <br />можливо, особивих дітей до <br />самостійного дорослого життя.
+                </h1>
+                {/* <img src={require("../../assets")}/> */}
+            </div>
         </div>
     )
 }
 
-export default infoDirector
+export default infoDirector;
