@@ -5,11 +5,11 @@ import './directions.scss';
 const approach = () => {
 
     return (
-        <div>
-            <table className="table-l mar">
+        <div >
+            <table className="table-l">
                 <tbody>
                     <tr>
-                        <td><h1 className="left">Напрямки діяльності центру</h1></td>
+                        <td><h1>Напрямки діяльності центру</h1></td>
                     </tr>
                     <tr>
                         <td><p className="left">
