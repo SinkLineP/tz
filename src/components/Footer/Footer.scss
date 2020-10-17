@@ -1,0 +1,102 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 35px;
+  background-color: #E5E5E5;
+  &-list {
+    display: flex;
+      &-first {
+        width: 157px;
+        margin-right: 263px;
+        &-title {
+          display: block;
+          width: 139px;
+
+          font-family: Montserrat;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 15px;
+
+          color: #777777;
+          text-decoration: none;
+          margin-bottom: 21px;
+        }
+        &-column{
+          display: flex;
+
+          font-family: Lato;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 24px;
+
+          color: #7D7D7D;
+          text-decoration: none;
+        }
+      }
+      &-second {
+        width: 199px;
+        margin-right: 223px;
+
+        &-title {
+          display: block;
+          width: 124px;
+
+          font-family: Montserrat;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 15px;
+
+          color: #777777;
+          text-decoration: none;
+          margin-bottom: 21px;
+        }
+        &-column{
+          display: flex;
+
+          font-family: Lato;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 24px;
+
+          color: #7D7D7D;
+          text-decoration: none;
+        }
+      }
+    &-third {
+
+      &-title {
+        display: block;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+
+        color: #2B8CFF;
+        text-decoration: none;
+      }
+      &-work {
+        display: block;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+
+        color: #7D7D7D;
+        text-decoration: none;
+        margin-bottom: 25px;
+      }
+      &-place {
+        display: block;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+
+        color: #7D7D7D;
+        width: 219px;
+        text-decoration: none;
+      }
+    }
+  }
+}

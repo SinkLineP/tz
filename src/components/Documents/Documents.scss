@@ -1,0 +1,76 @@
+.documents {
+  margin-top: 140px;
+  &-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 39px;
+
+    color: #000000;
+    margin-bottom: 12px;
+  }
+
+  &-subtitle {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 500px;
+
+    color: #000000;
+    margin-bottom: 45px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+
+    color: #000000;
+    &-item {
+      display: flex;
+      border-top: 1px solid #979797;
+      height: 87px;
+      padding-top: 30px;
+
+      &:nth-last-child(2), &:nth-last-child(3), &:nth-last-child(4) {
+        padding-top: 30px;
+        border-bottom: 1px solid #979797;
+      }
+
+      &-icon {
+        margin-right: 30px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 27px;
+
+        color: #2B8CFF;
+      }
+
+      &-text {
+        font-family: Open Sans;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+
+        width: 308px;
+        text-decoration: none;
+      }
+    }
+  }
+  &-download {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #2B8CFF;
+
+    margin-left: 903px;
+    padding-top: 30px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

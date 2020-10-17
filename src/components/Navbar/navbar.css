@@ -1,0 +1,265 @@
+.mynav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+
+}
+
+.mynav li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.mynav a {
+	display: block;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+	padding: 7px 15px;
+}
+
+.target {
+	position: absolute;
+	border-bottom: 2px solid transparent;
+	z-index: -1;
+	transform: translateX(-60px);
+}
+
+.mynav a,
+.target {
+	transition: all .35s ease-in-out;
+}
+
+.navbar-collapse {
+	z-index: -10;
+}
+
+.my-container {
+	max-width: 1360px;
+	margin: auto;
+}
+
+.mynav img {
+	width: 213px;
+	height: 50px;
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+
+.nav-link {
+	color: rgba(80, 80, 80, 0.863);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: 600;
+	padding-top: 0;
+
+}
+
+#special,
+#reabilitation,
+#before-school,
+#sponsor,
+#work {
+	display: none;
+}
+
+.show {
+	display: flex;
+}
+
+
+#main-image {
+	background-image: url('./images/background-orange.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: space-between;
+	min-width: 1163px;
+	max-width: 100%;
+	min-height: 465px;
+}
+
+#main-image #text {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 100px;
+	text-align: justify;
+}
+
+#main-image #text #big {
+	font-size: 40px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 800;
+	z-index: 1;
+
+
+}
+
+#main-image #text #small {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	z-index: 1;
+}
+
+#main-image #rect {
+	padding: 50px 100px;
+	z-index: 1;
+}
+
+
+.mdropdown {
+	float: left;
+	overflow: hidden;
+
+}
+
+.mdropdown .mdropbtn {
+	font-size: 12px;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	padding: 7px 15px;
+	background-color: inherit;
+
+	margin: 0;
+}
+
+
+.mdropdown-content {
+	display: none;
+	position: absolute;
+
+	max-width: 1360px;
+
+	background-color: #f9f9f9;
+	min-width: 1px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+
+.mdropdown-content #contancts {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.mdropdown-content #contacts {
+	display: flex;
+
+}
+
+
+#contacts-text {
+	display: flex;
+	font-size: 14px;
+}
+
+#contacts-text1 {
+	padding: 20px 20px 20px 50px;
+}
+
+#contacts-text2 {
+	padding: 20px 50px 20px 20px;
+	min-width: 300px;
+}
+
+.mdropdown-content #contacts #map {
+	width: 599.5px;
+	height: 100%;
+}
+
+.m2dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.m2dropdown .m2dropbtn {
+	font-size: 12px;
+	border: none;
+	outline: none;
+	padding: 7px 15px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.m2dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+
+.m2dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.m2dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.m2dropdown:hover .m2dropdown-content {
+	display: block;
+}
+
+.sponsor {
+	color: deepskyblue;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.market {
+	color: deepskyblue;
+}
+
+
+.caret-custom {
+	color: deepskyblue;
+}
+
+.ul-custom {
+	margin-top: 0; 
+	padding-top: 0;
+}
+
+.link-mision {
+	padding-left: 0;
+}
+
+.item-custom {
+	margin-left: auto;
+}
+
+.link-custom {
+	color:deepskyblue; 
+	font-weight: bold; 
+	padding-right: 0;
+}
+
+.custom-link-1 {
+	margin-left: auto;
+}
+
+.custom-link-2 {
+	color:deepskyblue; 
+	font-weight: bold;
+	 padding-right: 0;
+}
