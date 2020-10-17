@@ -9,7 +9,7 @@ const approach = () => {
             <table className="table-l">
                 <tbody>
                     <tr>
-                        <td><h1>Напрямки діяльності центру</h1></td>
+                        <td><h1 className="name">Напрямки діяльності центру</h1></td>
                     </tr>
                     <tr>
                         <td><p className="left">
